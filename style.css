@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap');
+:root{
+    --cor-de-fundo:#150050;
+    --cor-primaria:#FB2576;
+    --cor-secundaria:#3F0071;
+    --cor-do-texto:#ffffff;
+}
+body{
+    background-color: var(--cor-de-fundo);
+    color: var(--cor-do-texto);
+    font-family: "Exo 2", sans-serif;
+}
+header{
+    background-color: var(--cor-primaria);
+    color: var(--cor-de-fundo);
+}
+footer{
+    background-color: var(--cor-primaria);
+    color: var(--cor-de-fundo);
+}
