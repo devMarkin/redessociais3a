@@ -37,6 +37,7 @@ nav{
     font-weight: 500;
     font-size: 1.2rem;
     margin-top: 15px;
+    display: flex;
 }
 nav a{
     text-decoration: none;
@@ -49,8 +50,13 @@ nav a:hover{
 }
 footer{
     background-color: var(--cor-primaria);
+    display: flex;
     color: var(--cor-de-fundo);
-    text-align: center;
+    align-items: center;
+    justify-content: center;
     font-size: 1rem;
     margin-top: 15px;
+    height: 3rem;
+    width: 100%;
+    
 }
