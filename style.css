@@ -50,4 +50,7 @@ nav a:hover{
 footer{
     background-color: var(--cor-primaria);
     color: var(--cor-de-fundo);
+    text-align: center;
+    font-size: 1rem;
+    margin-top: 15px;
 }
