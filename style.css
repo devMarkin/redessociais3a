@@ -5,6 +5,16 @@
     --cor-secundaria:#3F0071;
     --cor-do-texto:#ffffff;
 }
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+}
 body{
     background-color: var(--cor-de-fundo);
     color: var(--cor-do-texto);
@@ -13,6 +23,29 @@ body{
 header{
     background-color: var(--cor-primaria);
     color: var(--cor-de-fundo);
+    text-align: center;
+    padding: 1px;
+}
+h1{
+    font-size: 3rem;
+    font-weight: 700;
+    margin-top: 20px;
+}
+nav{
+    text-align: center;
+    justify-content: center;
+    font-weight: 500;
+    font-size: 1.2rem;
+    margin-top: 15px;
+}
+nav a{
+    text-decoration: none;
+    margin:0 2rem 1rem 0;
+}
+nav a:hover{
+    text-decoration: underline;
+    transform: scale(0.90);
+    transition: transform 0.1s;
 }
 footer{
     background-color: var(--cor-primaria);
