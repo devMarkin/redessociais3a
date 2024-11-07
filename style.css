@@ -48,6 +48,20 @@ nav a:hover{
     transform: scale(0.90);
     transition: transform 0.1s;
 }
+.graficos-container{
+    margin: 5rem;
+}
+.graficos-container__texto{
+    font-size: 1.3rem;
+    text-align: center;
+    padding: 2rem;
+    border: var(--cor-primaria) solid 2px;
+}
+span{
+    font-weight: bold;
+    color: var(--cor-primaria);
+}
+
 footer{
     background-color: var(--cor-primaria);
     display: flex;
