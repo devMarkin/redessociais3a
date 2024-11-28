@@ -25,9 +25,23 @@ async function quantidadedeUsuarios( ) {
         text:'Redes sociais mais populares do mundo',
         font:{
           color:getCSS('--cor-do-texto'),
-          family:getCSS('Exo 2'),
+          family:getCSS('--font'),
           size:30
         }
+      },
+      xaxis:{
+        title:{
+          text:'Nome da rede social',
+          font:{
+            color:getCSS('--cor-do-texto')
+          }
+        }
+      },
+      yaxis:{
+        title:{
+          text:'Bilhões de usuários ativos',
+          font:{
+            color:getCSS('--cor-do-texto')
       }
     }
 
