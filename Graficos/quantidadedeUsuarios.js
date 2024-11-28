@@ -25,7 +25,7 @@ async function quantidadedeUsuarios( ) {
         text:'Redes sociais mais populares do mundo',
         font:{
           color:getCSS('--cor-do-texto'),
-          family:getCSS('--font')
+          family:getCSS('sans-serif')
         }
       }
     }
