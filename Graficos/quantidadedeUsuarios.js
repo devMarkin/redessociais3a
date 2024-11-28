@@ -19,7 +19,8 @@ async function quantidadedeUsuarios( ) {
       ]
 
     const layout = {
-      plot_bgcolor:getCSS('--cor-secundaria')
+      plot_bgcolor:getCSS('--cor-secundaria'),
+      paper_bgcolor:getCSS('--cor-secundaria')
     }
 
     const grafico = document.createElement ('div')
