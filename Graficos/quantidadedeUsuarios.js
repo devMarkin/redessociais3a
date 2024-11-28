@@ -39,6 +39,12 @@ async function quantidadedeUsuarios( ) {
 
       },
       yaxis:{
+        title:{
+          text:'Bilhões de usuários',
+          font:{
+            color:getCSS('--cor-do-texto')
+          }
+        }
 
       }
     }
