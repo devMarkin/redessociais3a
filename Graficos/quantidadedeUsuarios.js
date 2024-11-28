@@ -29,27 +29,27 @@ async function quantidadedeUsuarios( ) {
           size:30
         }
       },
-      xaxis:{
-        title:{
-          text:'Nome da rede social',
-          font:{
-            color:getCSS('--cor-do-texto')
-          }
+      xaxis: {
+        title: {
+            text: 'Nome das redes sociais',
+            font: {
+                color: getCSS('--cor-do-texto')
+            }
         }
-      },
-      yaxis:{
-        title:{
-          text:'Bilhões de usuários ativos',
-          font:{
-            color:getCSS('--cor-do-texto')
-      }
+    },
+    yaxis: {
+            text: 'Bilhões de usuários ativos',
+            font: {
+                color: getCSS('--cor-do-texto')
+            }
+        }
+    }  
     }
-
+  
     const grafico = document.createElement ('div')
     grafico.className='grafico'
     document.getElementById('graficos-container').appendChild(grafico)
     Plotly.newPlot(grafico, data, layout)
 
-}
 
 quantidadedeUsuarios()
