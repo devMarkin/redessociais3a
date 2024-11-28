@@ -22,7 +22,10 @@ async function quantidadedeUsuarios( ) {
       plot_bgcolor:getCSS('--cor-de-fundo'),
       paper_bgcolor:getCSS('--cor-de-fundo'),
       title:{
-        text:'Redes sociais mais populares do mundo'
+        text:'Redes sociais mais populares do mundo',
+        font{
+          color:getCSS('--cor-do-texto')
+        }
       }
     }
 
